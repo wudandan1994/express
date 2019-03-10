@@ -1,0 +1,25 @@
+
+兼容性问题
+
+1.ie9以下不支持c3新属性 (引入respond.js)
+
+
+html5shiv解决ie9以下浏览器对html5新标签的兼容.
+
+ie浏览器解决方案:hacks(查询)
+
+MDN:javaScript
+
+
+测试:真机模拟测试
+云测.跟测试人员一起模拟真实测试.
+苹果(ios系统)测试:xcode 去测试
+browsersyne:能让浏览器实时.快速响应文件更改并自动刷新页面.可以同时在pc,平板,手机等设备下进行测试
+http-server.
+
+性能提升
+1.css.js.图片压缩(图片压缩:https://tinypng.com)
+2.精灵图,懒加载,svg制作(不会失真.使用xml定义图片).
+3.打包:phoneGap打包的框架
+cordova.(一般不用)
+apicloud-->开发控制台
